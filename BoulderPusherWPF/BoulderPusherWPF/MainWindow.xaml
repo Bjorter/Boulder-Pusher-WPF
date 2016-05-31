@@ -1,0 +1,14 @@
+﻿<Window x:Class="BoulderPusherWPF.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:BoulderPusherWPF"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="650" Width="850">
+    <Grid Background="Black">
+        <Canvas x:Name="Ikkuna" Width="850" Height="650" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+
+        <MediaElement x:Name="song" Source="C:\Users\Tero\Source\Repos\BP\BP2\BP2\BoulderPusherMixdown.wav"/>
+    </Grid>
+</Window>
